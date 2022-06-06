@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500&display=swap');
+
+header {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  background-color: rgb(24, 22, 70);
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.menu_logo {
+  margin-right: 25%;
+}
+
+.logo_name {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.logo_name::after {
+  display: flex;
+  flex-direction: column;
+  content: "Система расчета ЗП";
+  font-size: 10px;
+  line-height: 10px;
+  color: rgb(255, 67, 67);
+}
+
+.menu_logo a {
+  color: #ffc550;
+  text-transform: uppercase;
+  font-family: 'Nunito';
+}
+
+.menu_logo a:hover {
+  box-shadow: none;
+}
+
+.menu_link_item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Nunito';
+  font-size: 13px;
+  color: #ffc550;
+  transition: .2s;
+  line-height: 2px;
+}
+
+.menu_item:first-child {
+  box-shadow: none;
+}
+
+.menu_item a:hover {
+  color: #ffd788;
+}
+
+.menu_item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu_item:last-child {
+  width: 90px;
+}
+
+.btn-login {
+  background-color: rgb(24, 22, 70);
+  height: 65%;
+  width: 100%;
+  border-color: #ffc550;
+  border-width:2px;
+  border-radius: 30px;
+  border-style:solid;
+  color: #ffc550;
+  font-family: 'Nunito';
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.btn-login:hover{
+  background-color: #ffc550;
+  color: rgb(24, 22, 70);
+  border: none;
+}
+
+/* MEDIA FOR HEADER */
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+  
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
